@@ -3,7 +3,6 @@
   padding-top: 128px;
   padding-bottom: 64px;
 }
-
 .maxWidthWrapper {
 }
 
@@ -34,4 +33,24 @@
 
 .controlColumn {
   width: 50%;
+}
+
+@media(max-width: 450px){
+  .characterWrapper {
+    top: 48px;
+    left: 0;
+    width: 100%;
+  }
+  .header {
+    display: none;
+  }
+
+  .controlColumn{
+    width: 100%;
+    position: fixed;
+    bottom: 50px;
+    overflow-x: auto;
+    z-index: 1;
+    white-space: nowrap;
+  }
 }

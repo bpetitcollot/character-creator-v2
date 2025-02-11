@@ -20,3 +20,10 @@
   font-weight: 400;
   color: hsl(0deg, 0%, 30%);
 }
+
+@media(max-width: 450px) {
+  .controlPane{
+    display: inline-block;
+    margin-right: 24px;
+  }
+}
